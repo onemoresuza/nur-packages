@@ -28,6 +28,5 @@ stdenv.mkDerivation rec {
     '';
     homepage = "https://www.leonerd.org.uk/code/libtickit/";
     license = licenses.mit;
-    mantainers = with mantainers; [onemoresuza];
   };
 }
