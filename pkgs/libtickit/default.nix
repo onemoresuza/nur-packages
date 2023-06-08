@@ -6,7 +6,6 @@
   unibilium,
   libtool,
 }:
-
 stdenv.mkDerivation rec {
   pname = "libtickit";
   version = "0.4.3";
