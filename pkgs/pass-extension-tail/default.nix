@@ -24,6 +24,5 @@ stdenvNoCC.mkDerivation rec {
     homepage = "https://github.com/palortoff/pass-extension-tail";
     license = licenses.gpl3;
     platforms = platforms.unix;
-    maintainers = with maintainers; [onemoresuza];
   };
 }
