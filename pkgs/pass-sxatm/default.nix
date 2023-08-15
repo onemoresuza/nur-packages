@@ -60,6 +60,5 @@ stdenvNoCC.mkDerivation rec {
     downloadPage = "https://git.sr.ht/~onemoresuza/pass-sxatm/refs/${version}";
     license = licenses.gpl2;
     platforms = platforms.unix;
-    maintainers = with maintainers; [onemoresuza];
   };
 }
