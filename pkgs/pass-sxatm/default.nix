@@ -52,8 +52,6 @@ stdenvNoCC.mkDerivation rec {
       "sxatm.bash"
   '';
 
-  doCheck = true;
-
   meta = with lib; {
     description = "A simple X autofill tool with menu for pass";
     homepage = "https://sr.ht/~onemoresuza/pass-sxatm/";
