@@ -2,10 +2,7 @@
   curl,
   fetchFromSourcehut,
   lib,
-  #
-  # Update to nim2 on 23.11
-  #
-  nim,
+  nim2,
   pkg-config,
   stdenv,
   zlib,
@@ -24,7 +21,7 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [
     pkg-config
-    nim
+    nim2
   ];
 
   buildInputs = [zlib] ++ (with curl; [out dev]);
